@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/WinPivotCustomSummaryCellType/Form1.cs) (VB: [Form1.vb](./VB/VBWinPivotCustomSummaryCellType/Form1.vb))
+<!-- default file list end -->
 # How to provide custom summary values for Total, Grand Total and ordinary cells
 
 
