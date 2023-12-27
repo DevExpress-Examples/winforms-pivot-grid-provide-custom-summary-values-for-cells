@@ -9,7 +9,7 @@ Public Class Form1
         CustomerReportsTableAdapter1.Fill(NwindDataSet1.CustomerReports)
         Dim expression As New ExpressionDataBinding()
         expression.Expression = "Iif(IsTotal([fieldCompanyName]), 'Grand Total', IsTotal([fieldYear]), 'Grand Total', IsTotal([fieldProductName]), 'Total', IsTotal([fieldQuarter]), 'Total', Sum([ProductAmount]))"
-        fieldProductAmount.DataBinding = expression
+        fieldProductAmount1.DataBinding = expression
     End Sub
 
 End Class
